@@ -3,7 +3,7 @@ int main()
 {
 	int t;
 	scanf("%d", &t);
-	if (t<15)
+	if (t<=15)
 	{
 		printf("LANH", t);
 	}
@@ -15,7 +15,7 @@ int main()
 	{
 		printf("NONG", t);
 	}
-	else if (t>35)
+	else if (t>=35)
 	{
 		printf("RAT_NONG", t);
 	}
