@@ -2,7 +2,6 @@
 int main()
 {
 	int a, b, c, max;
-	printf("\nCac so:");
 	scanf("%d", &a);
 	scanf("%d", &b);
 	scanf("%d", &c);	
