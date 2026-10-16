@@ -11,7 +11,7 @@ int main()
 	{
 		printf("MAT", t);
 	}
-    else if (t>=25 && t<=35)
+    else if (t>25 && t<35)
 	{
 		printf("NONG", t);
 	}
