@@ -3,7 +3,7 @@
 int main() {
   float dtb;
   scanf("%f",&dtb);
-  if (dtb<10.0 && dtb>=9.0) {
+  if (dtb<=10.0 && dtb>=9.0) {
     printf("A");
   }
   else if (dtb<9 && dtb>=8.0)
