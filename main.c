@@ -4,7 +4,8 @@ int main() {
   int w;
   int h;
   int BMI;
-  scanf("%d",&w,&h);
+  scanf("%d",&w);
+  scanf("%d",&h);
   BMI=w/(h/100)*2;
   if (BMI>=30)
   {
