@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-  int w;
-  int h;
-  int BMI;
+  float w;
+  float h;
+  float BMI;
   scanf("%d",&w);
   scanf("%d",&h);
   BMI=w/((h/100)*(h/100));
