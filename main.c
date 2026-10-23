@@ -4,7 +4,7 @@ int main() {
   float dtb;
   scanf("%f",&dtb);
   if (dtb<=10.0 && dtb>=9.0) {
-    prinft("A");
+    printf("A");
   }
   else if (dtb<=8.9 && dtb>=8.0)
   {
@@ -23,7 +23,7 @@ int main() {
     printf("C");
   }
   else if (dtb<=5.4 && dtb>=5.0){
-    prinft("D+");
+    printf("D+");
   }
   else if (dtb<=4.9 && dtb>=4.0){
     printf("D");
