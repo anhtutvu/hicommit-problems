@@ -2,6 +2,7 @@
 
 int main() {
   int xeploai=5;
+  scanf("%d",&xeploai);
   switch(xeploai)
     {
       case 1:
