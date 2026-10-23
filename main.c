@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  int xeploai=5
+  int xeploai=5;
   switch(xeploai)
     {
       case 1:
