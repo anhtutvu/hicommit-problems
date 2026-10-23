@@ -5,7 +5,7 @@ int main() {
   int h;
   int BMI;
   scanf("%d",&w,&h);
-  BMI=w/(h/100)*2
+  BMI=w/(h/100)*2;
   if (BMI>=30)
   {
     printf("OBESE");
