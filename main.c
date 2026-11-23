@@ -12,7 +12,11 @@ int main() {
   {
     printf("FAIL_ATTENDANCE");
   }
-  if(gpa>=8.0 &&min>=7.0)
+  else if(min<4.0)
+  {
+    printf("FAIL_SUBJECT");
+  }
+  else if(gpa>=8.0 &&min>=7.0)
   {
     printf("EXCELLENT");
   }
@@ -27,10 +31,6 @@ int main() {
   else
   {
     printf("FAIL");
-  }
-  if(min<4.0)
-  {
-    printf("FAIL_SUBJECT");
   }
   return 0;
 }
