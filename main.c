@@ -17,9 +17,8 @@ int main()
   {
     printf("INVALID");
   }
-  if(y%400==0||y%4 == 0 && y%100!=0)
+  if(y%400==0||y%4 == 0 && y%100!=0 && 1<=d && d<= 29)
   {
-    (1<=d&&d<=29);
     printf("VALID");
   }
   else{
