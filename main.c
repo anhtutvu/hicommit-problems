@@ -17,7 +17,5 @@ int main()
   {
    printf("INVALID"); 
   }
-
-}
   return 0;
 }
