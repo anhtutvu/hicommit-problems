@@ -7,13 +7,13 @@ int main()
   printf("");
   scanf("%1f",&d);
   if(d<=1){
-    tien = d*15000
+    tien = d*15000;
   }
-  if else(1<d||d>=5){
-    tien = 1*15000+(d-1)*13000
+  else if(1<d||d>=5){
+    tien = 1*15000+(d-1)*13000;
   }
-  if else(d>5){
-    tien = 1*15000+4*13000+(d-5)*11000
+  else if(d>5){
+    tien = 1*15000+4*13000+(d-5)*11000;
   }
    printf("%d",tien); 
   return 0;
