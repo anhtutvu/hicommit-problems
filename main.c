@@ -15,26 +15,22 @@ int main()
   }
   else
   {
-   printf("INVALID"); 
+    printf("INVALID");
   }
   if(m=1,3,5,7,8,10,12)
   {
     d=31;
-    printf("VALID");
   }
   else if(m=4,6,9,11)
   {
     d=30;
-    printf("VALID");
   }
   if(y%400==0||y%4 == 0 && y%100!=0)
   {
     m=29;
-    printf("VALID");
   }
   else{
     m=28;
-    printf("VALID");
   }
   return 0;
 }
