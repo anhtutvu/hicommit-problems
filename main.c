@@ -8,7 +8,7 @@ int main() {
   scanf("%f",&gpa);
   scanf("%f",&min);
   scanf("%d",&abs);
-  if(abs>3);
+  if(abs>3)
   {
     printf("FAIL_ATTENDANCE");
   }
