@@ -6,7 +6,7 @@ int main()
   double d;
   int donggia;
   printf("");
-  scanf("%1f",&d);
+  scanf("%lf",&d);
   if(d<=1){
     donggia=15000;
   }
