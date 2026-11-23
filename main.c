@@ -5,13 +5,14 @@ int main() {
   float gpa;
   float min;
   printf("");
-  scanf("%f",&gpa &min);
+  scanf("%f",&gpa);
+  scanf("%f",&min);
   scanf("%d",&abs);
   if(abs>3);
   {
     printf("FAIL_ATTENDANCE");
   }
-  else if(min<4.0)
+  if(min<4.0)
   {
     printf("FAIL_SUBJECT");
   }
