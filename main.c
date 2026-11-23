@@ -10,7 +10,7 @@ int main()
   if(d<=1){
     donggia=15000;
   }
-  else if(1<d&&d>=5){
+  else if(1<d&&d<=5){
     donggia = 13000;
   }
   else if(d>5){
@@ -19,7 +19,7 @@ int main()
   if(d<=1){
     tien = d*15000;
   }
-  else if(1<d&&d>=5){
+  else if(1<d&&d<=5){
     tien = 1*15000+(d-1)*13000;
   }
   else if(d>5){
