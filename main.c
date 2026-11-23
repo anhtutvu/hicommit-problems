@@ -1,11 +1,23 @@
-// HICOMMIT TEMPLATE FOR C
 #include <stdio.h>
 
-int main() {
-    
-    /*
-        Your code goes here. Happy coding!
-    */
+int main() 
+{
+  int d;
+  int m;
+  int y;
+  printf("");
+  scanf("%d",&d);
+  scanf("%d",&m);
+  scanf("%d",&y);
+  if(1 <= m && m <= 12)
+  {
+    printf("VALID");
+  }
+  else
+  {
+   printf("INVALID"); 
+  }
 
-    return 0;
+}
+  return 0;
 }
