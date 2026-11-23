@@ -4,8 +4,18 @@ int main()
 {
   int tien;
   double d;
+  int donggia;
   printf("");
   scanf("%1f",&d);
+  if(d<=1){
+    donggia=15000;
+  }
+  else if(1<d||d>=5){
+    donggia = 13000;
+  }
+  else if(d>5){
+    donggia =11000;
+  }
   if(d<=1){
     tien = d*15000;
   }
