@@ -17,5 +17,13 @@ int main()
   {
     printf("INVALID");
   }
+   if(1 <= m && m <= 12 &&1<=d &&d<=30)
+  {
+    printf("VALID");
+  }
+  else
+  {
+    printf("INVALID");
+  }
   return 0;
 }
