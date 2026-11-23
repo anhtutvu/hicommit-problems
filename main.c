@@ -9,7 +9,7 @@ int main()
   scanf("%d",&d);
   scanf("%d",&m);
   scanf("%d",&y);
-  if(1 <= m && m <= 12)
+  if(1 <= m && m <= 12 &&1<=d &&d<=31)
   {
     printf("VALID");
   }
@@ -17,6 +17,7 @@ int main()
   {
     printf("INVALID");
   }
+  
   if(m=1,3,5,7,8,10,12)
   {
     d=31;
