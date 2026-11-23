@@ -27,13 +27,13 @@ int main()
     printf("INVALID");
   }
  }
-  if(y%400==0 || y%4==0&&y%100)
+  if(m==2)
   {
-    if(m==2&&1<=d&&d<==29)
+    if(1<=d&&d<==29&&y%400==0 || y%4==0&&y%100)
     {
       printf("VALID");
     }
-    else if(m==2&&1<=d&&d<==28)
+    else if(1<=d&&d<==28&&y%400==0 || y%4==0&&y%100)
     {
      printf("VALID");      
     }
